@@ -25,12 +25,11 @@ body {
     margin: 0 auto;
     max-width: 1600px;
     padding: 0 40px;
- 
 
 }
 
 section{
-    overflow: hidden;
+    overflow: hidden; 
 }
 nav {
     position: fixed;
@@ -367,9 +366,8 @@ width: 100vw;
 .products-box {
     display: flex;
     justify-content: center;
-    position: relative;
     gap: 20px;
-
+    padding-top: 20px;
 }
 
 
@@ -547,8 +545,6 @@ width: 100vw;
     justify-content: center;
     gap: 80px;
     padding-top: 340px;
-    padding-bottom: 50px;
-    z-index: 10;
 
 }
 
@@ -562,7 +558,6 @@ width: 100vw;
 }
 
 .steps h2 {
-    
     font-size: 50px;
     width: 350px;
     color: #01064e;
@@ -599,7 +594,7 @@ width: 100vw;
 }
 
 .btn-wrapper {
-    margin-top: -75px;
+    margin-top: -25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -857,7 +852,7 @@ width: 100vw;
 
 .process-blank {
     /* position: absolute; */
-    z-index: 1  ;
+    z-index: 1;
     padding-top: 60px;
     background-color: #FFF;
     display: flex;
@@ -867,7 +862,6 @@ width: 100vw;
     border-radius: 30px;
     box-shadow: 0px 18px 50px 15px rgba(25, 42, 89, 0.2);
 }
-
 
 .request-title {
     font-size: 50px;
@@ -1059,7 +1053,7 @@ width: 100vw;
     background-color: #fff;
     padding-top: 100px;
     display: flex;
-    z-index: 0;
+
     align-items: center;
 
 }
@@ -1408,7 +1402,6 @@ footer {
     }
 
     .steps h2 {
-        padding-left: 30px;
         align-self: center;
         font-size: 6vw;
     }
@@ -1467,7 +1460,7 @@ footer {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 235vh;
+        height:vh;
      
     }
 
@@ -1877,7 +1870,6 @@ footer {
     .steps-box {
         display: flex;
         width: 90vw;
-        
         flex-direction: column;
         gap: 20px;
         border-radius: 30px;
@@ -1895,7 +1887,6 @@ footer {
     }
 
     .steps h2 {
-        padding-left: 30px;
         align-self: center;
         font-size: 10vw;
     }
@@ -1946,7 +1937,7 @@ footer {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 235vh;
+        height: 230vh;
         width: 100vw;
         padding-top: 100px;
     }
