@@ -898,7 +898,7 @@ nav.scrolled-down {
 }
 
 
-#form-dropdown-country {
+.form-country {
     font-family: 'Work Sans';
     outline: none;
     border-radius: 10px;
@@ -906,13 +906,28 @@ nav.scrolled-down {
     width: 450px;
 
 }
-#form-dropdown-business {
+
+.form-country._error{
+    box-shadow:  0 4px 2px -2px red;
+}
+.form-business {
     font-family: 'Work Sans';
     outline: none;
     border-radius: 10px;
     border-color: #b9c0d3;
     width: 450px;
 
+}
+
+.form-business._error{
+    box-shadow:  0 4px 2px -2px red;
+}
+
+.client-upload{
+    display: flex; 
+    align-self: start; 
+    flex-direction: column; 
+    gap: 15px;
 }
 
 select {
@@ -976,6 +991,10 @@ select:focus {
     width: 500px;
 }
 
+.process-form-input._error{
+    box-shadow:  0 4px 2px -2px red;
+}
+
 .process-checkbox-wrapper {
     display: flex;
     align-items: center;
@@ -989,6 +1008,8 @@ select:focus {
     /* or 23px */
     color: #10192b;
 }
+
+
 
 
 .btn-apply-start {
@@ -1038,8 +1059,11 @@ select:focus {
 
 }
 
-.form-button {
-    text-decoration: none;
+input#myfile{
+    display: none;
+}
+
+.newfile {
     font-size: 14px;
     width: 160px;
     height: 40px;
@@ -1052,11 +1076,12 @@ select:focus {
     align-items: center;
     align-self: flex-start;
     transition: 0.5s;
+    cursor: pointer;
 
 
 }
 
-.form-button:hover {
+.newfile:hover {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1244,10 +1269,22 @@ footer {
 
 }
 
-.address h4 {
+.address a {
     font-weight: 800;
     font-size: 15px;
     margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+.address a:hover {
+    font-weight: 800;
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    color: #8794BA;
+    transition-duration: 300ms;
 
 }
 
@@ -1656,7 +1693,7 @@ footer {
         align-items: center;
         padding: 40px 40px 60px 40px;
     }
-    #form-dropdown-country {
+    .form-country {
         font-family: 'Work Sans';
         outline: none;
         border-radius: 10px;
@@ -2124,7 +2161,7 @@ footer {
         align-items: center;
         padding: 40px 40px 60px 20px;
     }
-    #form-dropdown-country {
+    .form-country {
         font-family: 'Work Sans';
         font-size: 12px;
         outline: none;

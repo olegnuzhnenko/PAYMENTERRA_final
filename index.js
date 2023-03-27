@@ -44,7 +44,6 @@ checkbox.addEventListener('change', function () {
     }
 });
 
-
 //other window pop-up
 
 const el = document.getElementById(`form-dropdown-business`);
@@ -81,5 +80,17 @@ window.addEventListener('scroll', () => {
   });
 });
 
+
+
+
+//FILENAME CHECKER
+
+let inputFile = document.getElementById(`myfile`);
+let fileNameField = document.getElementById(`file-name`)
+
+inputFile.addEventListener('change', function(event){
+  let uploadedFileName = event.target.files[0].name;
+  fileNameField.textContent = uploadedFileName;
+})
 
 AOS.init();

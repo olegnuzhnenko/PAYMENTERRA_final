@@ -383,17 +383,24 @@
           <div class="process-blank" data-aos="zoom-out-up">
             <h4 class="request-title">APPLY NOW FOR COLLABORATION </h4>
             <div class="process-form-container">
-              <form action="https://formsubmit.co/deb6ef561adc47c3ecd81c06a0bed6ad" class="process-form" method="POST">
+              <form action="https://formsubmit.co/nuzhnenkoo@gmail.com" enctype="multipart/form-data"  class="process-form" method="POST">
                 <label class="process-form-titles" for="">Company Name <br>
-                  <input class="process-form-input" type="text" placeholder="What is your company name:" name="Company Name">
+                  <input class="process-form-input company-name _req" type="text" placeholder="What is your company name:" name="Company Name">
                 </label>
 
                 <label class="process-form-titles" for="">Email <br>
-                  <input class="process-form-input" type="text" placeholder="Your email:" name="Email">
+                  <input class="process-form-input _req _e-mail" type="text" placeholder="Your Email:" name="Email">
+                </label>
+
+                <label class="process-form-titles" for="">Website used by the Company <br>
+                  <input class="process-form-input website _req" type="text" placeholder="Website:" name="website">
+                </label>
+                <label class="process-form-titles" for="">Client Representatives <br>
+                  <input style ="margin-bottom:15px;"class="process-form-input representatives _req" type="text" placeholder="Name, Surname:" name="representative">
                 </label>
 
                 <label class="process-form-titles" for="">Country of Registration <br>
-                  <select id="form-dropdown-country" name="Country" class="form-country">
+                  <select id="form-dropdown-country" name="Country" class="form-country country _req">
                     <option value="" selected="selected" hidden="hidden">-Choose your country-</option>
                     <option value="Afghanistan">Afghanistan</option>
                     <option value="Åland Islands">Åland Islands</option>
@@ -642,8 +649,8 @@
                 </select>
                 </label>
 
-                <label class="process-form-titles business" for="">Business Activities<br>
-                  <select id="form-dropdown-business" name="Business Activity">
+                <label class="process-form-titles" for="">Business Activities<br>
+                  <select id="form-dropdown-business" name="Business Activity" class="form-business _req">
                     <option value="" selected="selected" hidden="hidden">-Choose your business activity-</option>
                     <option>Accounting and audit services</option>
                     <option>Antiques</option>
@@ -680,20 +687,22 @@
                     </select>
                 </label>
                 <label class="process-form-titles" id="other" style="display: none;">Other Business <br>
-                  <input type="text" class="process-form-input"  placeholder="What is your business activity:" name="Other Business Activity">
+                  <input type="text" class="process-form-input other _req"  placeholder="What is your business activity:" name="Other Business Activity">
                 </label>
                 
-                <div class="form-download"
-                  style=" margin-left: 10px; display: flex; align-self: start; flex-direction: column; gap: 15px;">
-                  <p style=" font-size: 14px;">Fill an Application Form before we contact you</p>
-                  <a class="form-button" href="files/Application_Form.doc"><img src="images/download.png"
-                      style="width: 18px;padding-right: 5px;" alt="">Application Form</a>
+                <div class="client-upload">          
+                  <input type="file" id="myfile" name="myfile"  accept=".doc,.docx,.pdf"/>
+                  <label class="newfile" for="myfile">Upload a file<img style = "height:14px; margin-left: 10px; align-self: left;" src="images/upload.png" alt=""/></label>
+                  <span style="font-size: 14px; align-self: center;">
+                    <strong>Chosen file:</strong>
+                    <span id="file-name">None</span>
+                  </span>
                 </div>
 
-
+      
                 <div class="process-checkbox-wrapper">
-                  <input type="checkbox" id="terms-checkbox" value="" name="checkbox">
-                  <p>I agree with the <a href="terms.html" target="_blank">terms and conditions</a> and the <a
+                  <input type="checkbox" id="terms-checkbox" value="" name="checkbox" class="checkbox">
+                  <p class="checkbox__label">I agree with the <a href="terms.html" target="_blank">terms and conditions</a> and the <a
                       href="privacy.html" target="_blank">privacy policy</a></p>
 
                 </div>
@@ -745,7 +754,7 @@
       <div class="footer-logo">
         <img src="images/logo.png" alt="" srcset="">
         <div class="address">
-          <h4>PAYMENTERRA FINANCE LTD.</h4>
+          <a href="https://beta.canadasbusinessregistries.ca/search/results?search=%7BPaymenterra%7D&status=Active">PAYMENTERRA FINANCE LTD.</a>
           <p>329 HOWE STREET #1233<br>
             VANCOUVER BC V6C 3N2<br>
             CANADA
