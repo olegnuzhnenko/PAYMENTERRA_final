@@ -218,6 +218,8 @@ nav.scrolled-down {
     align-items: left;
     padding-bottom: 30px;
     width: 40%;
+    text-align: left; 
+    margin-bottom: 150px;
 }
 
 
@@ -1372,7 +1374,7 @@ footer {
 
     .title-text {
         width: auto;
-
+        margin-bottom: 20px;
     }
 
     .title-text h1 {
@@ -1890,6 +1892,8 @@ footer {
     .title-text {
         width: auto;
         z-index: 0;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
 
     .title-text h1 {
