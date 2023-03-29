@@ -176,8 +176,8 @@ nav.scrolled-down {
 .planet-background {
     position: absolute;
     margin-bottom: 110px;
-    margin-left: -120px;
-    height: 600px;
+    margin-left: -110px;
+    height: 550px;
     opacity: 15%;
 
 }
@@ -201,13 +201,11 @@ nav.scrolled-down {
 
 
 .title-gif1 {
-
-
-
-    width: 70%;
+    width: 65%;
     z-index: 10;
     position: relative;
 }
+
 
 
 .title-text {
@@ -256,7 +254,7 @@ nav.scrolled-down {
     border-style: none;
     border-radius: 36px;
     margin-top: 20px;
-    padding: 0px 0px 0px 0pabout-wrapperx;
+    padding: 0px 0px 0px 0px;
     cursor: pointer;
     font-family: 'Work Sans';
     font-style: normal;
@@ -746,6 +744,7 @@ nav.scrolled-down {
     align-items: center;
     height: 100vh;
     padding-top: 70px;
+    
 }
 
 .pricing-title {
@@ -838,8 +837,9 @@ nav.scrolled-down {
 
 /* /////////////////// */
 .join {
-    padding-top: 80px;
+    padding-top: 380px;
     height: 100vh;
+    width: 100%;
 }
 
 .join-wrapper {
@@ -1144,9 +1144,9 @@ input#myfile{
 
 .subscribe-wrapper {
     height: 80vh;
-    padding-bottom: 100px;
+    padding-bottom: 350px;
     background-color: #fff;
-    padding-top: 100px;
+    padding-top: 600px;
     display: flex;
 
     align-items: center;
@@ -1389,8 +1389,10 @@ footer {
     }
 
     .title-gif1 {
+        padding-top: 50px;
         width: 80vw;
     }
+
 
     .planet-background {
         height: 40vh;
@@ -1401,7 +1403,7 @@ footer {
         flex-direction: column;
         width: auto;
         height: auto;
-        padding-top: 80px;
+        padding-top: 180px;
         gap: 0px;
     }
 
@@ -1571,7 +1573,7 @@ footer {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: vh;
+        height: 70vh;
 
     }
 
@@ -1651,9 +1653,9 @@ footer {
     }
 
     .join {
-
+      
         width: 100vw;
-
+        height: 160vh;
     }
 
     .join-wrapper {
@@ -1767,12 +1769,14 @@ footer {
 
 
     .apply-wrapper {
+        height: 100vh;
         padding-bottom: 600px;
     }
 
     .subscribe-wrapper {
         width: 100vw;
         height: 110vh;
+        padding-top: 300px;
 
     }
 
@@ -1898,8 +1902,10 @@ footer {
     }
 
     .title-gif1 {
+        padding-top: 50px;
         width: 350px;
     }
+
 
     .planet-background {
         height: 40vh;
