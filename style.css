@@ -1012,7 +1012,9 @@ select:focus {
     /* or 23px */
     color: #10192b;
 }
-
+.process-form-input.representatives{
+    margin-bottom:15px;
+}
 
 
 
@@ -1150,7 +1152,7 @@ input#myfile{
     height: 80vh;
     padding-bottom: 350px;
     background-color: #fff;
-    padding-top: 600px;
+    padding-top: 700px;
     display: flex;
 
     align-items: center;
