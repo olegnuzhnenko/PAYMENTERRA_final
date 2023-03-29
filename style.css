@@ -2132,6 +2132,7 @@ footer {
         position: relative;
         z-index: 10;
         width: 50vw;
+        gap: 50px;
     }
 
     .process-blank {
