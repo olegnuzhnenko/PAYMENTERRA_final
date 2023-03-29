@@ -206,6 +206,10 @@ nav.scrolled-down {
     position: relative;
 }
 
+.title-gif2{
+    display: none;
+}
+
 
 
 .title-text {
@@ -1389,10 +1393,15 @@ footer {
     }
 
     .title-gif1 {
-        padding-top: 50px;
-        width: 80vw;
+        
+        display: none;
     }
 
+    .title-gif2{
+        padding-top: 50px;
+        width: 80vw;
+        display: flex;
+    }
 
     .planet-background {
         height: 40vh;
@@ -1902,8 +1911,12 @@ footer {
     }
 
     .title-gif1 {
+        display: none;
+    }
+    .title-gif2 {
         padding-top: 50px;
         width: 350px;
+        display: flex;
     }
 
 
@@ -1918,6 +1931,7 @@ footer {
         width: auto;
         height: auto;
         gap: 0px;
+        padding-top: 30px;
     }
 
     .about-text {
